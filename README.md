@@ -15,6 +15,8 @@ Browse to this dir and open the `mplab_ide.conf` config file.
 
 find the `default_options=` string and add `-J-Dsun.java2d.dpiaware=true` to the end.
 
+you can also add `-J-Dsun.java2d.dpiaware=true --fontsize 24`
+
 E.G
 
 Replace
@@ -165,7 +167,7 @@ Now the `DPI` should look good but the scaling can be small to read.
 # Links
 - [scaling-issues-with-mplabxide](https://stackoverflow.com/questions/59381656/how-do-you-fix-scaling-issues-with-mplabxide-with-mcc-in-windows-10-when-using)
 - [monitors](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/ides/x/configuration/monitors/)
--
+-https://www.eevblog.com/forum/microcontrollers/alternative-(better!)-ide-to-mplab-x/25/
 -
 -
 
